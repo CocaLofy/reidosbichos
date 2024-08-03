@@ -26,22 +26,6 @@
         <body>
 
           <img id="dynamicImage" src="assets/reidosbichos.png" alt="reidosbichos">
-
-          <script>
-            const images = [
-              'assets/bicho1.png',
-              'assets/bicho2.png'
-            ];
-
-            let currentIndex = 0;
-
-            function changeImage() {
-              currentIndex = (currentIndex + 1) % images.length;
-              document.getElementById('dynamicImage').src = images[currentIndex];
-            }
-
-            setInterval(changeImage, 5000);
-          </script>
       </div>
 
       <p>@reidosbichos</p>
