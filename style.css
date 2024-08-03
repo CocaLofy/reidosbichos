@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: url(./assets/1\ \(6\).png) no-repeat top center/cover;
+}
+
+body *{
+    font-family: "Inter", sans-serif;
+    color: #fff;
+}
+
+#container{
+    width: 360px;
+    margin: 56px auto auto;
+    padding: 0 24px;
+}
+
+#profile{
+    text-align: center;
+    padding: 24px;
+}
+
+#profile .foto{
+    border-radius: 50%;
+}
+
+
+#profile .foto.sombra-interna img{
+    width: 100%;
+    border-radius: 50%;
+}
+
+#profile p{
+    font-weight: 500;
+    line-height: 24px;
+}
+
+/* Links */
+ul{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    padding: 24px 0;
+}
+
+ul li{
+}
+
+ul li a{
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 16px 24px;
+    border-radius: 8px;
+    background-color: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(4px);
+    -webkit-backdrop-filter: blur(4px);
+    text-decoration: none;
+    font-weight: 500;
+    transition: background .2s;
+}
+
+ul li a:hover{
+    background-color: rgba(255, 255, 255, 0.05);
+    border: 1.5px solid white;
+}
+
+#social-links{
+    display: flex;
+    justify-content: center;
+    padding: 24px 0;
+    gap: 16px;
+    font-size: 24px;
+}
+
+#social-links a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 16px;
+}
+
+#social-links a:hover{
+    background-color: rgba(255, 255, 255, 0.2);
+    border-radius: 50%;
+}
